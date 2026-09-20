@@ -1,0 +1,14 @@
+# Build outputs
+/bin/
+/dist/
+tg
+
+# Test artifacts
+*.test
+*.out
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,9 @@
+# Cursor Agent Rules
+
+When asked to send notifications, dispatch deliverables, or read messages via Telegram:
+- Use the `tg` (or `./bin/tg`) CLI tool.
+- Sending documents/markdown: `tg send -f <file.md> -c "<caption>"`
+- Sending quick status: `tg send "<message>"`
+- Fetching incoming messages: `tg fetch --limit 5 --json`
+- Chat ID retrieval: `tg chat-id --token "<token>"`
+- Documentation & full guidelines: `.agents/skills/telegram/SKILL.md`
